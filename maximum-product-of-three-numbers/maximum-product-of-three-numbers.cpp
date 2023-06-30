@@ -12,7 +12,7 @@ public:
         long long int ans2 = 1;
 
         ans = nums[i-1]*nums[i-2]*nums[i-3];
-        ans2 = nums[0]*nums[1]*nums[i-1];
+        ans2 = nums[0]*nums[1]*nums[i-1]; //special case
         // ans2 = ans;
 
     return max(ans,ans2);
