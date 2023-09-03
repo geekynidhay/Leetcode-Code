@@ -11,8 +11,8 @@ public:
         }
 
         sort (v.begin(),v.end());
-        int l = v.size()-1;
+        p1 = v.size()-1;
 
-    return v[l];
+    return v[p1];
     }
 };
